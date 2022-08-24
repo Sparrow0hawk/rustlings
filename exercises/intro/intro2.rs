@@ -5,5 +5,7 @@
 // I AM NOT DONE
 
 fn main() {
-    println!("Hello {}!");
+    let name: String = String::from("world");
+
+    println!("Hello {}!", name);
 }
